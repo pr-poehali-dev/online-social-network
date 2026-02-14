@@ -1,0 +1,1 @@
+{"tests": [{"name": "Health check - feed", "method": "GET", "path": "/?route=/posts", "expectedStatus": 200}, {"name": "Auth required for me", "method": "GET", "path": "/?route=/auth/me", "expectedStatus": 401}, {"name": "Search empty", "method": "GET", "path": "/?route=/search&q=test", "expectedStatus": 200}]}
